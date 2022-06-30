@@ -1,0 +1,39 @@
+.CardPortafolios{
+  width: 80%;
+  height: 210px;
+  border-radius: 22px;
+
+
+}
+
+.img-sizeP{
+  width: 80%;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+}
+.text-centerP{
+  text-align: center;
+}
+.h5{
+  margin-left: 100px;
+}
+.background-color{
+    background-color: #FF3E6F;
+
+}
+.text-col{
+  color: white;
+}
+@media screen and (max-width: 576px){
+  .CardPortafolios{
+    width: 60%;
+    height: 210px;
+    border-radius: 22px;
+    margin: auto auto auto auto;
+
+  }
+}
+
