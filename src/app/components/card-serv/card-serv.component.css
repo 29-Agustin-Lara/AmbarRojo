@@ -1,0 +1,53 @@
+.cardColor{
+  background-color: white;
+  color: #FC003F;
+  border-radius: 30px;
+  width: 70%;
+  height: 350px;
+}
+.a-color{
+  color: #FC003F;
+
+}
+@media screen and (max-width: 1400px) {
+  .a-color{
+    color: #FC003F;
+    font-size: 1.0rem;
+  }
+}
+@media screen and (max-width: 992px){
+  .cardColor{
+    background-color: white;
+    color: #FC003F;
+    border-radius: 30px;
+    width: 80%;
+    height: 350px;
+  }
+  .a-color{
+    color: #FC003F;
+    font-size: .8rem;
+  }
+}
+@media screen and (max-width: 768px){
+  .cardColor{
+    background-color: white;
+    color: #FC003F;
+    border-radius: 30px;
+    width: 80%;
+    height: 350px;
+  }
+  .a-color{
+    color: #FC003F;
+    font-size: .7rem;
+  }
+}
+@media screen and (max-width: 576px){
+  .cardColor{
+    background-color: white;
+    color: #FC003F;
+    border-radius: 30px;
+    width: 80%;
+    height: auto;
+    margin: auto auto auto auto;
+  }
+}
